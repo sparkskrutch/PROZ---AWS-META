@@ -1,0 +1,75 @@
+.cabecalho {
+        background-color: rgb(119, 191, 210);
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        padding-left: 200px;
+        padding-right: 200px;
+}
+
+.home_header_navbar{
+        display: flex;
+        gap: 20px;
+}
+
+.home_header_navbar_item:hover, a:hover{
+      scale: 1.08;
+      color: white;
+      transition: all 0.06s ease-in-out;
+}
+
+.titulo{
+        padding-top: 50px;
+        padding-left: 260px;
+}
+
+.paragrafo{
+        padding-top: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+}
+
+.fotos_1{
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+ 
+}
+
+.fotos_2{
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+}
+
+.subtitulo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.paragrafo_1{
+        text-align: justify;
+}
+
+.mala_direta{
+        padding-top: 50px;
+        padding-left: 500px;
+}
+
+.formulario_mala_direta{
+        padding-top: 10px;
+        padding-left: 500px;
+        padding-bottom: 30px;
+}
+
+.links{
+        padding-top: 30px;
+        padding-left: 200px;
+        background-color: rgb(119, 191, 210);
+}
+
+.logo_footer{
+        padding-left: 800px;
+}
