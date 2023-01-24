@@ -1,0 +1,4 @@
+Extensões VS Code
+
+- Auto Rename Tag: Reescreve automaticamente a tag de fechamento quando alteardo a tag de abertura.
+- Code Spell Checker (Brazilian Dicionary): Ajuda a não escrever errado as váriaveis e os comandos.
