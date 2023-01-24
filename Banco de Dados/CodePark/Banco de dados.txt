@@ -1,0 +1,6 @@
+Microsoft SQL Server >> Banco de dados criados pela Microsoft com o diferencial de ter os dados criptogafados e um sistema de autorização de usuários.
+
+MySQL >> Um dos bancos de dados mais utilizado no mundo tem como principal caracteristica maior facilidade na integração entre servidor e linguagens de programação, além de possuir uma implementação leve o que proporciona maior velocidade de uso.
+
+Redshift >> Criada pela AWS seu foco é em análise de dados em grande escala. Análise de dados estruturados e semiestruturados em data warehouses, banco de dados operacionais e data lakes.
+
