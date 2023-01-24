@@ -1,0 +1,29 @@
+Tairine Melo
+Henrique Oliveira
+Gustavo Carvalho
+
+****Ideias
+
+	Site de desinvolvimento cognitivo infantil (m, g, t
+		* Jogos Lúdicos
+
+	Delivery de comida (m, g, t
+		* Receitas e Vídeo
+		* Pacote de Ingredientes
+
+	Busca de empregos - Processos seletivos - TI (m, t
+		* Os empregos mais buscados
+		* Dicas para se candidatar
+
+	Blog Viagens
+	
+
+===================================================
+Busca de empregos
+   *Front/ Back / Full Stack
+       * Primeiros passos na carreira
+       * Softs Skills
+       * 
+
+
+	

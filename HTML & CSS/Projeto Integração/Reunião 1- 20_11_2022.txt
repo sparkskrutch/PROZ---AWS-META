@@ -1,0 +1,31 @@
+Cores do Logo
+Vermelho,  verde, branco, amarelo e marrom.
+
+Layout Figma
+Melissa - Alterações Layout
+
+***HOME
+- Título de cada página (header)
+- Foto família cozinhando feliz (lado direito)
+- Informações do que nós fazermos (lado esquerdo)
+- Cardápio (embaixo)
+- Contato - Faça seu pedido (número)
+
+***CARDÁPIO
+- 3 categorias
+  - Pizzas Tradicionais
+  - Pizzas Especiais
+  - Pizzas Fitness
+
+***Receita
+- Vídeo (topo)
+- Ingredientes (embaixo do vídeo)
+- Modo de preparo (embaixo dos ingredientes)
+- slide -> outras receitas(embaixo do modo de preparo)
+
+***CADASTRO
+- padrão
+
+***SACOLA
+- Box ingredientes
+
