@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+  }
+
+.container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  /* grid-column-start: 1;
+  grid-column-end: 5; */
+}
+
+.titulo-site {
+  background: lightseagreen;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+main {
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+}
+
+.titulo-carrinho{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 600px;
+}
+
+.item-carrinho {
+  background: rgb(175, 224, 221);
+  border-radius: 8px;
+  height: 123px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itens-carrinho {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.capa {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nome-autor {
+  /* color: aliceblue; */
+  padding: 30px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+}
+
+.section {
+  /* color: aliceblue; */
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.subtotal-item{
+  padding-bottom: 15px;
+}
+
+.contagem-itens {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
+.btn-subtrair-produto-01 {
+  border: none;
+  background-color: aliceblue;
+  border-radius: 3px;
+  outline: none;
+  color: lightseagreen;
+  transition: background-color .3s;
+}
+
+.btn-subtrair-produto-01:hover {
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+
+.btn-subtrair-produto-01:active {
+  background-color: aliceblue;
+}
+
+.btn-adicionar-produto-01 {
+  border: none;
+  background-color: aliceblue;
+  border-radius: 3px;
+  outline: none;
+  color: lightseagreen;
+  transition: background-color .3s;
+}
+
+.btn-adicionar-produto-01:hover {
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+
+.btn-adicionar-produto-01:active {
+  background-color: aliceblue;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;;
+}
+
+#quantidade-produto-01 {
+  width: 20px;
+}
+
+#quantidade-produto-02 {
+  width: 20px;
+}
+
+#sub {
+  width: 380px;
+}
+
+#subtotal {
+  display: flex;
+  flex-direction: column;
+}
+
+#quantidade-subtotal{
+  padding-left: 10px;
+}
+
+.subtotal-final {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 200px;
+  padding-right: 5px;
+}
+
+.fechar-pedido {
+  padding-left: 475px;
+  padding-bottom: 20px;
+}
+
+.btn-fechar-pedido{
+  border: none;
+  padding: 5px 20px;
+  background-color: lightseagreen;
+  outline: none;
+  color: aliceblue;
+  border-radius: 5px;
+  transition: background-color .5s;;
+}
+
+.btn-fechar-pedido:hover {
+  background-color: rgb(0, 211, 183);
+}
+
+.btn-fechar-pedido:active {
+  background-color: lightseagreen;
+}
+
+
+.error-text {
+  opacity: 0;
+  font-size: 11px;
+
+}
+footer {
+  /* grid-row-start: 3;
+  grid-row-end: 4; */
+  padding-top: 20px;
+  background-color: lightseagreen;
+  height: 10vh;
+}
+
+

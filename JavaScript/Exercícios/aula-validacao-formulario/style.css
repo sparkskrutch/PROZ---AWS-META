@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #202020;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #101010;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 16px;
+  padding: 1.5rem 40px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(to left, #21d4fd, #b721ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: aliceblue;
+  -webkit-text-fill-color: transparent;
+}
+
+label {
+  margin-bottom: .2rem;
+  position: relative;
+}
+
+label:not(:first-of-type){
+  margin-top: 1rem;
+}
+
+input {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  border: none;
+  border-bottom: 1px solid #fff;
+  display: block;
+  width: 90%;
+  height: 45px;
+  background-color: transparent;
+  padding: 0 5px;
+  outline: none;
+  margin: 15px;
+}
+
+.helper-text {
+  display: none;
+  font-size: .8rem;
+  color: darkred;
+}
+
+button {
+  margin: 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  transition: background-color .5s;
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
+  background: linear-gradient(to left, #21d4fd, #b721ff);
+}
+
+button:hover {
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(to left,#b721ff, #21d4fd);
+  background: -o-linear-gradient(to left,#b721ff, #21d4fd);
+  background: -moz-linear-gradient(to left,#b721ff, #21d4fd);
+  background: linear-gradient(to left,#b721ff, #21d4fd);
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;;
+}
+
+/* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+.required-popup-username-invalido::after {
+  content: "*Username inválido";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+.required-popup-email-invalido::after {
+  content: "*Insira um email válido";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+
+.required-popup-idade-invalida::after {
+  content: "*Você não tem idade suficiente";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+.required-popup-senha-invalida::after {
+  content: "*Digite uma senha válida";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+.required-popup-confirmar-senha::after {
+  content: "*As senhas não conferem";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(156, 156, 156);
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+}
+
+
+input.error {
+  color: #ac2424;
+}
+
+input.correct {
+  color: rgb(156, 156, 156);
+}
+
+.visible {
+  display: block;
+}

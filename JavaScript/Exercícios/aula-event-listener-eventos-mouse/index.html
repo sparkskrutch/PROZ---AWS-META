@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Carrinho de compras</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="titulo-site">Site de Compras</h1>
+    </header>
+    <main>
+      <section class="titulo-carrinho">
+        <h1 class="titulo">Carrinho de compras</h1>
+        <h2 class="subtitulo">Produtos</h2>
+      </section>
+      <section class="itens-carrinho">
+          <section id="carrinho">
+            <div class="item-carrinho" id="produto-01">
+              <div class="capa"><img src="assets/capa.jpg" alt="capa livro">
+                <div class="nome-autor">
+                  <spam id="nome-livro">Dom Casmurro</spam>
+                  <spam id="autor-livro">Machado de Assis</spam>
+                  <div><p class="error-text">*Desculpe. Este produto tem uma quantidade de compra limitada a 4 unidades por cliente.</p></div>
+                </div>
+              </div>
+              <div class="section">
+                <div class="subtotal-item">
+                  <spam>Valor: R$11.66</spam>
+                </div>
+                <div class="contagem-itens">
+                  <button class="btn-subtrair-produto-01">-</button>
+                  <input id="quantidade-produto-01" type="number" value="1" min="0">
+                  <button click="addProdutos()" class="btn-adicionar-produto-01">+</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="carrinho 2">
+              <div class="item-carrinho" id="produto-01">
+                <div class="capa"><img src="assets/capa2.jpg" alt="capa livro">
+                  <div class="nome-autor">
+                    <spam id="nome-livro">Memórias Póstumas de Brás Cubas</spam>
+                    <spam id="autor-livro">Machado de Assis</spam>
+                    <div><p class="error-text">*Desculpe. Este produto tem uma quantidade de compra limitada a 4 unidades por cliente.</p></div>
+                  </div>
+                </div>
+                <div class="section">
+                  <div class="subtotal-item">
+                    <spam>Valor: R$11.66</spam>
+                  </div>
+                  <div id="contagem-itens">
+                    <button class="btn-subtrair-produto-01">-</button>
+                    <input id="quantidade-produto-01" type="number" value="1" min="0">
+                    <button click="addProdutos()" class="btn-adicionar-produto-01">+</button>
+                  </div>
+                </div>
+              </div>
+           </section>
+      </section>
+      <section class="subtotal-final">
+        <h2 id="sub">Subtotal</h2>
+        <div class="total">
+          <div id="subtotal">
+              <p><span id="quantidade-subtotal">1</span></p>
+              <p id="valor-subtotal">R$ <span id="valor-total">11.66</span></p>
+            </div>
+          </div>
+      </section>
+      <div class="fechar-pedido">
+        <a href="#"><button class="btn-fechar-pedido">Fechar pedido</button></a>
+      </div>         
+    </main>
+    <footer>
+      <h1></h1>
+    </footer>
+  </div>  
+</body>
+</html>
