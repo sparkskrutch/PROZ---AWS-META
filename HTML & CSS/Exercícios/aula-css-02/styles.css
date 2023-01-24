@@ -1,0 +1,21 @@
+.header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.home_header_navbar{
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: black;
+}
+
+.home_header_navbar_item:hover, a:hover {
+    scale: 1.5;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
