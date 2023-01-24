@@ -1,0 +1,44 @@
+Flexbox 
+
+//O flexbox trabalha de acordo com o eixo transversal correndo perpendicularmente ao eixo principal.
+//Como se fosse uma grade com 4 espaços.
+
+*Justify-contain -> Alinha em linha horizontal:
+    - flex-start: itens se alinham à esquerda  do container;
+    - flex-end: itens se alinham à direita do container;
+    - center: itens se alinham no centro do container;
+    - space-between: itens se alinham com distância igual entre eles;
+    - space-around: itens se alinham com distanância igual em torno deles.
+
+*Align-items -> Alinha vários itens em coluna vertical: (Quando queremos organizar todos os itens do pai)
+    - flex-start: itens se alinham na parte de cima do container;
+    - flex-end: itens se alinham na parte de baixo do container;
+    - center: itens se alinham no centro vertical do conteiner;
+    - baseline: itens se alinham na linha da base do container;
+    - stretch: itens se esticam para preencher o container.
+
+*Flex-direction -> Define a direção que os itens são posicionados no container:
+    - row: itens são posicionados na mesma direção do texto;
+    - row-reverse: itens são posicionados na direção oposta à do texto;
+    - column: itens são posicionados de cima para baixo.
+    - column-reverse: itens são posiconados de baixo para cima.
+
+*Align-self -> Alinha um único item; (Quando queremos organizar apenas o filho - Só funciona quando o pai tem o 'display: flex')
+    - flex-start: itens se alinham na parte de cima do container;
+    - flex-end: itens se alinham na parte de baixo do container;
+    - center: itens se alinham no centro vertical do conteiner;
+    - baseline: itens se alinham na linha da base do container;
+    - stretch: itens se esticam para preencher o container.
+
+*Order -> Reordena um item com valores númericos, sendo ele o '0', os da direita números positivos e o da esquerda números negativos;
+
+*Flex-wrap -> Quebra de linha;
+    - nowrap: todos os itens são apertados em uma única linha;
+    - wrap: itens se separam em linhas adicionais;
+    - wrap-reverse: itens se separam em linhas adicionais em reverso. 
+
+*Flex-flow -> Mescla de Flex-wrap e Flex-direction. Ela aceita instruções das duas funções separados por espaço:
+    - wrap column: As duas instruções de cada função.
+
+*Align-content: Definir espaçamento de múltiplas linhas:
+    - L
