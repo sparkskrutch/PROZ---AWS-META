@@ -1,0 +1,35 @@
+<form>
+    <label for="fullname">Nome completo</label>
+    <input type="text" id="fullname" class="input-standard" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" class="input-standard" required placeholder="seuemail@domínio.com">
+
+    <label for="phone">Telefone</label>
+    <input type="tel" id="phone" class="input-standard" required placeholder="(XX) XXXXX-XXXX">
+
+    <label for="message">Mensagem</label>
+    <textarea cols="70" rows="10" id="message" class="input-standard" required></textarea>
+
+    <fieldset>
+        <legend>Como prefere o nosso contato?</legend>
+        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
+
+        <label for="radio-phone"><input type="radio" name="contact" value="telephone" id="radio-phone">Telefone</label>
+
+        <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </select>
+    </fieldset>
+
+    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+    <input type="submit" value="Enviar formulário" class="send">
+</form>

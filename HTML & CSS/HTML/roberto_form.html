@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+</head>
+<body>
+  <h1>Contato</h1>
+  <form action="/">
+    <section>
+      <label for="username">Nome</label>
+      <input type="text" name="username" id="username" placeholder="Digite seu nome">
+    </section>
+    
+    <section>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu melhor e-mail">
+    </section>
+
+    <section>
+      <label for="comentario">Comentário</label>
+      <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Digite aqui o seu comentário"></textarea>
+    </section>
+    
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+    
+  </form>
+</body>
+</html>
+
+<style type="text/css">
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  margin-top: 36px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-top: 36px;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 32px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+input {
+  margin-top: 8px;
+  height: 24px;
+  padding: 8px;
+  background: #d9dbda;
+}
+
+textarea {
+  margin-top: 8px;
+  background: #d9dbda;
+  padding: 8px;
+}
+
+form div {
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  margin-top: 32px;
+  width: 128px;
+  height: 36px;
+  background: #154c79;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #063970;
+}
+
+</style>
