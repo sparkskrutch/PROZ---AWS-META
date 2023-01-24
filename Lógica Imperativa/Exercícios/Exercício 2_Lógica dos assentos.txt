@@ -1,0 +1,17 @@
+O professor organizou a sala com diferentes duplas.
+
+São elas: PP, MP, MM e PM.
+
+Três colunas foram criadas. Cada uma possuia seis duplas.
+
+Em cada coluna possuia:
+
+1 PP/ 3 MP/ 1 MM/ 1 PM
+
+Quando ele voltou uma das três colunas estava diferente.
+
+A terceira coluna estava com:
+
+1 PP/ 3 MP/ 0 MM/ 2 PM
+
+Pela lógica criada ele notou que um aluno trocou de Matemática trocou com um aluno de Português;

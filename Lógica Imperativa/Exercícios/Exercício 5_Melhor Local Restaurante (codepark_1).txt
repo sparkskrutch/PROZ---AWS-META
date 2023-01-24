@@ -1,0 +1,36 @@
+Pergunta 1: Quantas pessoas são?
+Pergunta 2: Alguém é fumante?
+Pergunta 3: Está com algum animal?
+
+----------------------------------------
+
+Var
+
+qtdpessoas: inteiro
+fumante: lógico
+animal: lógico
+
+
+escreval ("Olá! Bem-vindo ao Restaurante Ratatouille.")
+
+escreval ("Por favor, responda o questionário para encontrarmos o melhor local para desfrutar das nossas refeições.")
+
+escreva ("Quantas pessoas são?")
+leia (inteiro)
+escreva ("Alguém é fumante?)
+leia (fumante)
+escreva ("Está com algum animal?")
+
+se (qtd>=5) entao
+escreva ("O melhor local é: 1º Andar")
+senao
+se (fumante=verdadeiro)entao
+escreva ("O melhor local é: Área Externa")
+senao
+se (animal=verdadeiro) entao
+escreva ("O melhor local é: Área Externa")
+senao
+escreva ("O melhor local é: Térreo")
+fimse
+
+fimalgoritimo

@@ -1,0 +1,18 @@
+Nome, CPF, RG, Altura, Rua, Número, Bairro, Cidade, Estado.
+
+Nome, Rua, Bairro, Cidade, Estado: caracter
+CPF, RG, Numero: inteiro
+Altura: real.
+
+caracter <_ nome
+inteiro <_ cpf
+inteiro <_ rg
+real <_ altura
+caracter <_ logradouro
+inteiro <_ numero
+caracter <_ bairro
+caracter <_ cidade
+caracter <_ estado
+
+
+

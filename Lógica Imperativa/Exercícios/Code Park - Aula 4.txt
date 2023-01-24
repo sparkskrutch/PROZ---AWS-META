@@ -1,0 +1,11 @@
+CODE PARK - AULA 4
+
+Laços de Repetição
+
+Exercícios:
+
+https://github.com/sparkskrutch/cursodeprogramacao/blob/master/codepark_loop1.py
+
+https://github.com/sparkskrutch/cursodeprogramacao/blob/master/codepark_loop2.py
+
+https://github.com/sparkskrutch/cursodeprogramacao/blob/master/codepark_loop3.py

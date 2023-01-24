@@ -1,0 +1,33 @@
+	caracter <_ nome, logradouro, bairro, cidade;
+	inteiro <_ numero, cpf, rg;
+
+	escreva ("Cadastro");
+	escreva ("Informe seus dados.")
+
+	escreva ("Nome: ");
+	leia (nome);
+	escreva ("Informe seu Endereço:");
+	escreva ("Logradouro: ");
+	leia (logradouro);
+	escreva ("Número: ");
+	leia (numero);
+	escreva ("Bairro: ");
+	leia (bairro);
+	escreva ("Cidade: ");
+	leia (cidade);
+	escreva ("CPF: ");
+	leia (cpf);
+	escreva ("RG: ");
+	leia (rg);
+
+	escreva ("Confirme os dados.");
+	escreva ("Nome: ", nome);
+	escreva ("Logradouro: ", logradouro);
+	escreva ("Número: ", numero);
+	escreva ("Bairro: ", bairro);
+	escreva ("Cidade: ", cidade);
+	escreva ("CPF: ", cpf);
+	escreva ("RG: ", rg);
+
+	fimalgoritimo
+	
