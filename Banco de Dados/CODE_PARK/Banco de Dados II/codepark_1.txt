@@ -1,0 +1,41 @@
+create table filmes (
+  id serial PRIMARY KEY,
+  nome VARCHAR,
+  produtora VARCHAR,
+  tempo_de_filme_seg INT
+  )
+
+INSERT into filmes
+(nome, produtora, tempo_de_filme_min)
+VALUES
+('007 contra GoldenEye', 'Metro-Goldwyn-Mayer', 129),
+('Jogos Vorazes', 'Lions Gate Entertainment', 142),
+('Homem-Aranha: Sem Volta para Casa', 'Marvel Studios', 148)
+
+select*FROM filmes
+
+--------------------------------------------------------------------
+
+create TABLE atores (
+  id serial PRIMARY KEY,
+  nome VARCHAR unique,
+  nacionalidade VARCHAR,
+  idade INT
+  )
+
+insert into atores
+(nome, nacionalidade, idade)
+VALUES
+('Pierce Brosnan', 'Irlandês', 69),
+('Jennifer Lawrence', 'Norte-americana', 32),
+('Zendaya Coleman', 'Norte-americana', 26),
+('Tom Holland', 'Britânico', 26)
+
+select*FROM atores 
+
+SELECT*FROM filmes
+inner JOIN atores
+ON filmes.id = atores.id
+
+
+
