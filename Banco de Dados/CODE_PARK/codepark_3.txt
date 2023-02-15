@@ -1,0 +1,90 @@
+create table aluno (
+  id serial PRIMARY KEY,
+  nome VARCHAR unique,
+  matricula INT unique,
+  email VARCHAR,
+  endereço VARCHAR,
+  telefone INT
+  )
+
+insert into aluno
+(nome, matricula, email, endereço, telefone)
+VALUES
+('José Vitor', 2345, 'jvitor@gmail.com', 'Rua da Saudade', 1178256589),
+('Paulo Andre', 3456, 'pandre@gmail.com', 'Rua do Sol', 1178254495),
+('João Carlos', 1234, 'jcarlos@gmail.com', 'Rua Treze de Maio', 1178254489)
+
+select*FROM aluno
+
+--------------------------------------------------------------------
+
+CREATE TABLE emprestimo (
+  id serial PRIMARY KEY,
+  data_hora TIMESTAMP,
+  matric_aluno INT,
+  data_devolucao DATE
+  )
+
+insert into emprestimo
+(data_hora, matric_aluno, data_devolucao)
+VALUES
+('2022-03-12 15:25:00', 1234, '2022-03-15'),
+('2022-03-15 14:32:00', 3456, '2022-03-18'),
+('2022-03-20 03:51:00', 2345, '2022-03-23')
+
+select*FROM emprestimo 
+
+-------------------------------------------------------------------
+
+create table sessao (
+  cod_livro INT PRIMARY KEY,
+  descricao VARCHAR,
+  localização VARCHAR
+  )
+
+insert into sessao
+(cod_livro, descricao, localizacao)
+VALUES
+(01, 'Sessao1', 'Pratileira1'),
+(02, 'Sessao2', 'Pratileira2'),
+(03, 'Sessao3', 'Pratileira3')
+
+select*FROM sessao
+
+--------------------------------------------------------------------
+
+CREATE table livro (
+  cod_livro INT PRIMARY KEY,
+  titulo VARCHAR,
+  autor VARCHAR,
+  fk_id_sessao INT,
+  CONSTRAINT fk_id_sessao FOREIGN KEY (fk_id_sessao) references sessao(codigo)
+)
+
+insert into livro
+(cod_livro, titulo, autor, fk_id_sessao)
+VALUES
+(01, 'Modelo Conceitual e Diagramas ER', 'Pressman, Roger S.', 03),
+(02, 'Livro 2: Modelo Relacional e Álgebra Relacional', 'Heuser, Carlos Alberto', 01),
+(03, 'Livro 3: Linguagem SQL', 'Beighley, Lynn', 02)
+
+select*FROM livro
+
+---------------------------------------------------------------------
+
+Create TABLE livro_emprestimo (
+  fk_id_livro INT,
+  fk_id_emprestimo INT,
+  CONSTRAINT livro_emprestimo_pk PRIMARY KEY(fk_id_livro, fk_id_emprestimo),
+  CONSTRAINT fk_id_livro FOREIGN KEY(fk_id_livro) REFERENCES livro(cod_livro),
+  CONSTRAINT fk_id_emprestimo FOREIGN KEY(fk_id_emprestimo) REFERENCES emprestimo(id)
+  )
+
+insert into livro_emprestimo
+(fk_id_livro, fk_id_emprestimo)
+VALUES
+(03, 01),
+(01, 03),
+(02, 02)
+
+select*FROM livro_emprestimo
