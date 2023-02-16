@@ -1,0 +1,6 @@
+DELIMITER $$
+CREATE PROCEDURE relatório_diario_vendas()
+BEGIN
+ SELECT nome, quantidade, data_venda FROM vendas;
+END
+DELIMITER;
