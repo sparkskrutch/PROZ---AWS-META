@@ -1,0 +1,11 @@
+O Pilares da Segurança da Informação
+
+1 - Confidencialidade: é o pilar que garante que os dados estejam acessíveis somente a pessoas autorizadas. O uso de políticas de segurança podem ajudar nesse processo, como o a criptografia, o acesso controlado, senhas fortes entre outros.
+
+2- Integridade: É a capacidade de proteger as informações contra alterações não autorizadas. Alguns dos maiores causadores de problemas na integridade dos dados são políticas de segurança inaequadas, erros humanos, falhas que dão brachas para ciberataques.
+
+3- Disponibilidade: É a capacidade de do sistema de se manter disponível sempre que necessário, garantindo o acesso sempre que solicitado pelo usuário.
+
+4- Autenticidade: É o processo que garante que as informações estejam corretas e inalteradas, para que isso ocorra o uso de logins e senhas, autenticação biométrica ou chave de segurança são indispensáveis.
+
+5- Irretratabilidade: Esse pilar garante que uma pessoa não negue a autoria da ação realizada. Não podendo fugir da responsabilidade do que é feito.
