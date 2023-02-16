@@ -1,0 +1,5 @@
+CREATE FUNCTION contar_clientes(id_cliente)
+RETURNS VARCHAR(10)
+BEGIN
+   RETURN(sum(id_cliente) FROM nome WHERE data_cadastro = '15/02/2023')
+END
