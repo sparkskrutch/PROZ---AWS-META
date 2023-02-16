@@ -1,0 +1,8 @@
+Metódos para Fortalecer Senhas
+
+1 - Procure criar senhas grandes e complexas utilizando letras maiúsculas, letras minúsculas, números e caracteres especiais.
+
+
+2 - Não utilize dados que remetem a data de nascimento, nome, idade, telefone ou qualquer outra coisa que pode ser facilmente encontrado nas redes sociais.
+
+3- Procure criar uma senha para cada conta, o dano que pode ser causado pela possível descoberta de uma senha é reduzido consideravelmente.
